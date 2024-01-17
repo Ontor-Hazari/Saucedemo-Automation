@@ -1,0 +1,13 @@
+09:03:25.128 [main] INFO  com.swag_labs.TestCases.BaseClass - Open ChromeDriver
+09:03:25.974 [main] INFO  com.swag_labs.TestCases.BaseClass - The login page is open, and execution starts.
+09:03:37.526 [main] INFO  com.swag_labs.TestCases.BaseClass - The login page is open, and execution starts.
+09:03:37.527 [main] INFO  com.swag_labs.TestCases.BaseClass - The login page execution Stop.
+09:03:37.530 [main] INFO  com.swag_labs.TestCases.BaseClass - Close Driver
+09:03:46.002 [main] INFO  com.swag_labs.TestCases.BaseClass - Open ChromeDriver
+09:03:55.890 [main] INFO  com.swag_labs.TestCases.BaseClass - Close Driver
+09:04:03.349 [main] INFO  com.swag_labs.TestCases.BaseClass - Open ChromeDriver
+09:04:08.705 [main] INFO  com.swag_labs.TestCases.BaseClass - Close Driver
+09:04:12.970 [main] INFO  com.swag_labs.TestCases.BaseClass - Open ChromeDriver
+09:04:22.536 [main] INFO  com.swag_labs.TestCases.BaseClass - Close Driver
+09:04:27.086 [main] INFO  com.swag_labs.TestCases.BaseClass - Open ChromeDriver
+09:04:43.055 [main] INFO  com.swag_labs.TestCases.BaseClass - Close Driver

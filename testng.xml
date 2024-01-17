@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+             <listener class-name="com.swag_labs.TestCases.ExtentListenerClass"></listener>
+
+    </listeners>
+    <test verbose="2" preserve-order="true" name="E:/Selenium/Real_Life_Project/src/test/java/com/swag_labs/TestCases">
+        <classes>
+
+            <class name="com.swag_labs.TestCases.TC_LoginPageTest">
+                <methods>
+                    <include name="displayLoginPage"/>
+                    <include name="loginWithEmptyFields"/>
+                    <include name="loginWithInvalidUsername"/>
+                    <include name="loginWithInvalidPassword"/>
+                    <include name="loginWithInvalidCredentials"/>
+                    <include name="loginWithValidCredentials"/>
+                </methods>
+            </class>
+            <class name="com.swag_labs.TestCases.TC_ProductPageTest">
+                <methods>
+                    <include name="VerificationOfClickFunctionalityOnProductCard"/>
+                    <include name="VerifyClickFunctionalityOnMultipleProductCards"/>
+                    <include name="VerifyProductTitleText"/>
+                    <include name="VerifyProductDescriptionText"/>
+                </methods>
+            </class>
+            <class name="com.swag_labs.TestCases.TC_ShoppingCartContainerTest">
+                <methods>
+                    <include name="VerifyProductContainerClickable"/>
+                </methods>
+            </class>
+            <class name="com.swag_labs.TestCases.TC_CheckoutTest">
+                <methods>
+                    <include name="VerifyProductCheckoutButtonClickability"/>
+                </methods>
+            </class>
+            <class name="com.swag_labs.TestCases.TC_ContinueShoppingUsertInformationTest">
+                <methods>
+                    <include name="VerifyWithoutFillupFirstnameContinue"/>
+                    <include name="VerifyWithoutFillupLastnameContinue"/>
+                    <include name="VerifyWithoutFillupZipeCodeContinue"/>
+                    <include name="VerifyWithoutFillupAllFiledContinue"/>
+                    <include name="VerifyFillupAllFiledContinue"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

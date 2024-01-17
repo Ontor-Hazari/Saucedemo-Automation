@@ -6,13 +6,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ProductPage_Model {
     WebDriver driver;
 
+
+
     public ProductPage_Model(WebDriver driver){
         this.driver = driver;
+
         PageFactory.initElements(driver, this);
     }
     //Header
@@ -41,6 +45,19 @@ public class ProductPage_Model {
 
 
     }
+    public void Product_Add_to_cart_Removed(int index)
+    {
+
+
+
+        List<WebElement> Iteam_Click =  driver.findElements(By.xpath("(//button[@class=\"btn btn_primary btn_small btn_inventory \"])"));
+
+        Iteam_Click.get(index-1).click();
+    }
+
+
+
+
 
     public String Product_Add_to_cart_Text(int num)
     {
